@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stylesheetwandenreich.css">
+</head>
+<body>
+    <h1>About us</h1>
+
+<video autoplay muted loop>
+    <source src="video/Warframe Rhino Idle Live Wallpaper.mp4" type="video/mp4">
+</video>
+  <div class="about-us-p">
+  <p>We are a induvidual group of players, united by playing Warframe. <br>
+    We have exclusive Clan Challenges aswell as fractions and an active Comunity. <br>
+    We do NOT preassure our members to be insanly active so that everyone can relax. <br>
+    We welcome old aswell as new players to the Clan, that way we can help eachother. <br>
+    Let us welcome you into a new world of degeneracy :D 
+  </p>
+</div>
+  <h2 class="hidden-on-scroll">Join us Today and be part of our Warframe Ecosystem <br>
+                    
+            Add me on Discord: ghostyvids__604
+  </h2>
+ 
+
+<script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    });
+  
+    document.querySelectorAll('.hidden-on-scroll').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
